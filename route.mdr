@@ -1,0 +1,177 @@
+:::tracker{species="Growlithe" baseStats="[55, 70, 45, 70, 50, 60], [90, 110, 80, 100, 80, 95]]}
+7: 
+  8 -> 0, 0, 0, 0, 1, 1
+  9 -> 0, 0, 1, 0, 2, 2
+  10 -> 0, 1, 1, 0, 2, 2
+  11 -> 0, 2, 1, 0, 2, 3
+  12 -> 0, 2, 1, 0, 4, 3
+  13 -> 0, 3, 1, 1, 4, 4
+  14 -> 0, 3, 1, 2, 7, 4
+  15 -> 0, 3, 1, 2, 9, 4
+  16 -> 0, 3, 1, 2, 11, 5
+  17 -> 0, 4, 3, 2, 11, 5
+  18 -> 0, 6, 3, 2, 11, 7
+  19 -> 0, 9, 3, 2, 11, 8
+  20 -> 0, 11, 3, 2, 11, 9
+  21 -> 0, 11, 5, 4, 12, 10
+  22 -> 0, 11, 5, 4, 14, 12
+  23 -> 0, 14, 5, 4, 14, 16
+  24 -> 0, 14, 5, 4, 14, 16
+  25 -> 0, 17, 5, 4, 15, 19
+  26 -> 0, 19, 5, 4, 15, 22
+  27 -> 5, 19, 5, 4, 15, 24
+  28 -> 5, 19, 8, 4, 15, 24
+  29 -> 5, 21, 9, 5, 17, 24
+  30 -> 5, 22, 11, 7, 18, 24
+  31 -> 7, 22, 12, 9, 20, 24
+  32 -> 7, 22, 12, 14, 20, 24
+8: 
+  9 -> 0, 0, 0, 0, 1, 2
+  10 -> 0, 0, 1, 0, 2, 2
+  11 -> 0, 1, 1, 0, 2, 3
+  12 -> 0, 2, 1, 0, 4, 3
+  13 -> 0, 3, 1, 1, 4, 4
+  14 -> 0, 3, 1, 2, 6, 4
+  15 -> 0, 3, 1, 2, 9, 4
+  16 -> 0, 3, 1, 2, 11, 5
+  17 -> 0, 4, 3, 2, 11, 5
+  18 -> 0, 6, 3, 2, 11, 7
+  19 -> 0, 8, 3, 2, 11, 8
+  20 -> 0, 11, 3, 2, 11, 9
+  21 -> 0, 11, 5, 4, 12, 10
+  22 -> 0, 11, 5, 4, 14, 12
+  23 -> 0, 14, 5, 4, 14, 16
+  24 -> 0, 14, 5, 4, 14, 16
+  25 -> 0, 17, 5, 4, 15, 19
+  26 -> 0, 19, 5, 4, 15, 22
+  27 -> 5, 19, 5, 4, 15, 24
+  28 -> 5, 19, 8, 4, 15, 24
+  29 -> 5, 21, 9, 5, 17, 24
+  30 -> 5, 22, 11, 7, 18, 24
+  31 -> 7, 22, 12, 9, 20, 24
+  32 -> 7, 22, 12, 14, 20, 24
+9: 
+  10 -> 0, 0, 0, 0, 2, 2
+  11 -> 0, 1, 1, 0, 2, 2
+  12 -> 0, 2, 1, 0, 4, 3
+  13 -> 0, 3, 1, 0, 4, 4
+  14 -> 0, 3, 1, 2, 5, 4
+  15 -> 0, 3, 1, 2, 9, 4
+  16 -> 0, 3, 1, 2, 11, 5
+  17 -> 0, 4, 2, 2, 11, 5
+  18 -> 0, 6, 3, 2, 11, 7
+  19 -> 0, 8, 3, 2, 11, 8
+  20 -> 0, 11, 3, 2, 11, 9
+  21 -> 0, 11, 3, 4, 12, 10
+  22 -> 0, 11, 3, 4, 12, 10
+  23 -> 0, 11, 5, 4, 14, 12
+  24 -> 0, 14, 5, 4, 14, 16
+  25 -> 0, 17, 5, 4, 15, 19
+  26 -> 0, 19, 5, 4, 15, 20
+  27 -> 2, 19, 5, 4, 15, 24
+  28 -> 5, 19, 8, 4, 15, 24
+  29 -> 5, 21, 9, 5, 17, 24
+  30 -> 5, 22, 11, 7, 18, 24
+  31 -> 7, 22, 12, 9, 18, 24
+  32 -> 7, 22, 12, 14, 20, 24
+10: 
+  11 -> 0, 0, 1, 0, 2, 2
+  12 -> 0, 1, 1, 0, 2, 3
+  13 -> 0, 2, 1, 0, 4, 3
+  14 -> 0, 3, 1, 1, 5, 4
+  15 -> 0, 3, 1, 2, 9, 4
+  16 -> 0, 3, 1, 2, 9, 5
+  17 -> 0, 4, 2, 2, 11, 5
+  18 -> 0, 4, 3, 2, 11, 7
+  19 -> 0, 7, 3, 2, 11, 8
+  20 -> 0, 11, 3, 2, 11, 9
+  21 -> 0, 11, 3, 4, 12, 10
+  22 -> 0, 11, 3, 4, 12, 10
+  23 -> 0, 11, 5, 4, 14, 12
+  24 -> 0, 14, 5, 4, 14, 16
+  25 -> 0, 17, 5, 4, 15, 19
+  26 -> 0, 19, 5, 4, 15, 20
+  27 -> 2, 19, 5, 4, 15, 24
+  28 -> 5, 19, 8, 4, 15, 24
+  29 -> 5, 21, 9, 5, 17, 24
+  30 -> 5, 22, 11, 7, 18, 24
+  31 -> 7, 22, 12, 9, 18, 24
+  32 -> 7, 22, 12, 14, 20, 24
+:::
+
+Set date and time to 20th September 23:40-23:55 (sunny Rolling Fields, overcast Motostoke Riverbank, sunny East Lake Axewell, sandstorm Dusty Bowl)
+
+ZL, ZR and A all act as the confirm button in this game. To advance through text quickly, hold ZL/ZR/A/B and mash a different confirm button. Mash "confirm" through text unless otherwise directed.
+
+Hold down on D-pad, right on control stick during transition to Options to change first three options quickly:
+- Text Speed: Fast
+- (v) Battle Effects: Off
+- (v) Battle Style: Set
+- (vv) Give Nicknames: Don’t give
+- (R) Autosave: Off
+- (R) Skip Movies: On (<)
+- B, then mash A to confirm twice
+
+Pick Scorbunny (don't reset for stats). Keep track of your Atk and Sp. Atk.
+
+:::::trainer[Pokémon Trainer Hop]
+  :::pokemon[Wooloo]
+    - Tackle x3 :info[x2 is 9.8% range at 14 Atk]{color=red}
+  :::
+  :::pokemon[Grookey]
+    - Ember x2 :info[100% at 10 SpA]{color=red}
+:::::
+
+On Route 1, catch Rookidee at full HP. If Rookidee doesn't show up, catch Wooloo instead.
+
+:::card
+If you caught a Lv. 5 or 6 Wooloo, check these cards for the appropriate strats on Jake's Skwovet and Benjamin's Nickit.
+:::
+
+Grab the Rare Candy to the right after leaving Sonia's lab.
+
+Pick the 2nd option at Hop in the Pokémon Center.
+
+:::::::trainer[Youngster Jake]
+  :::::pokemon[Skwovet]
+    - With 17+ Atk, Tackle x4
+    - With less Atk, Ember x4
+    :::card
+      - With 18+ Atk, Tackle x3
+      - With 12+ Sp. Atk, Ember x3 :info[99% at 12-13 Sp. Atk, 100% at 14 Sp. Atk]{color=red}
+      - With 16-17 Atk, try Tackle x3 :info[48.9% range]{color=red}
+      - With lower stats, Ember x4 :info[x3 is 1.1% range]{color=red}
+    :::
+  :::::
+:::::
+
+:::::trainer[Youngster Benjamin]
+  :::pokemon[Blipbug]
+    - Ember :info[1/16 at 11- Sp. Atk, 15/16 at 12-13 Sp. Atk, 100% at 14+ Sp. Atk]{color=red}
+    :info[If in Blaze, Ember is 15/16 at 9 Sp. Atk, 100% at 10+ Sp. Atk]{color=red}
+  :::
+  :info[If you miss the Blipbug range, always Quick Attack Nickit]{color=gray}
+  :::pokemon[Nickit]
+    - In Blaze with 12+ Sp. Atk, Ember x2 (finish with Quick Attack if necessary)
+    - If not in Blaze and/or with less Sp. Atk, Quick Attack x3 :info[1/256 range at 18+ Atk]{color=red}
+  :::
+:::::
+
+:::::trainer[Pokémon Trainer Hop]
+  :::pokemon[Wooloo]
+    - With 15 Sp. Atk, Ember x2 :info[12.1% range]{color=red}
+    - With 16+ Atk, Tackle x3 (switch to Ember if Growled) :info[x2 is 7.4% range at 22+ Atk]{color=red}
+    - With lower stats, Ember x3
+  :::
+  :::pokemon[Grookey]
+    - Ember x2 :info[100% at 13 Sp. Atk]{color=red}
+  :::
+  :::pokemon[Rookidee]
+    - With 15+ Sp. Atk, Ember x2 :info[x1 is 7/8 range to crit-KO]{color=red}
+    - With 23+ Atk, Quick Attack x2 if not Growled :info[x1 is 5/8 range to crit-KO]{color=red}
+    - With lower stats, Ember x2
+  :::
+:::::
+
+
+
