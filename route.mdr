@@ -329,7 +329,7 @@ Mash B after leaving Motostoke Stadium, then
     - Extreme Speed + Flamethrower
     :::
   :::::
-  :::::pokemon[Grookey]{info="has 26 Speed"}
+  :::::pokemon[Grookey]{info="has 26 Speed" infoColor=blue}
     - Flamethrower
   :::::
   :::::pokemon[Rookidee]
@@ -339,9 +339,22 @@ Mash B after leaving Motostoke Stadium, then
     :::if{source="Growlithe" condition="startingLevel=7-8 && spa=~(x / 30+ / 10+)"}
     - Burn Up
     :::
-    :::if{source="Growlithe" condition="startingLevel=9-10 && spa=(x / 30+ / 10+)"}
-    
+    :::if{source="Growlithe" condition="startingLevel=9-10 && spa=(x / 10+ / 0+)"}
+    - Flamethrower
+    :::
+    :::if{source="Growlithe" condition="startingLevel=9-10 && spa=~(x / 10+ / 0+)"}
+    - Burn Up
+    :::
+  :::::
+:::::::
 
+(gif for passing Hannah?)
+
+:info[**FREE HEAL** after Sonia]{color=pink}
+
+:::::::trainer[Schoolboy Peter]
+  :::::pokemon[Sizzlipede]
+    :::if{source="Growlithe" condition="startingLevel=
 
 
 
