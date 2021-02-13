@@ -491,7 +491,35 @@ Taxi to Center.
   :::
 :::::
 
+Heal before Hop if you die to 1 hit.
 
+:::::::trainer[Pokemon Trainer Hop]
+  :::::pokemon[Wooloo]
+    - X Sp. Atk + Flamethrower
+    :::if{source="Growlithe" condition="startingLevel=7-8"}
+      ::damage[Tackle]{source="Growlithe" offensive=false level=16 evolution=1 evs=0 movePower=40 special=false stab=true opponentLevel=18 opponentStat=20 theme="info"}
+    :::
+    :::if{source="Growlithe" condition="startingLevel=9-10"}
+      ::damage[Tackle]{source="Growlithe" offensive=false level=17 evolution=1 evs=0 movePower=40 special=false stab=true opponentLevel=18 opponentStat=20 theme="info"}
+    :::
+  :::::
+  :::::pokemon[Corvisquire]{info="has 40 Speed" infoColor=blue}
+    - Flamethrower
+    :::if{source="Growlithe" condition="spe=(# / 20- / 3-)"}
+      ::damage[Pluck]{source="Growlithe" offensive=false level=17 evolution=1 evs=0 movePower=60 special=false stab=true opponentLevel=19 opponentStat=33 theme="info"}
+    :::
+  :::::
+  :::::pokemon[Thwackey]{info="has 42 Speed" infoColor=blue}
+    - Flamethrower
+    :::if{source="Growlithe" condition="startingLevel=7-9 && spe=(# / 31- / 14-)"}
+      ::damage[Double Hit (hits twice)]{source="Growlithe" offensive=false level=17 evolution=1 evs=0 movePower=35 special=false stab=false opponentLevel=21 opponentStat=43 theme="info"}
+    :::
+    :::if{source="Growlithe" condition="startingLevel=10 && spe=(# / 20- / 3-)"}
+      ::damage[Double Hit (hits twice)]{source="Growlithe" offensive=false level=18 evolution=1 evs=0 movePower=35 special=false stab=false opponentLevel=21 opponentStat=43 theme="info"}
+    :::
+  :::::
+:::::::
+  
 
 
 
