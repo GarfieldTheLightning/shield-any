@@ -164,6 +164,8 @@ Pick the 2nd option at Hop in the Pokemon Center.
   :::::
 :::::::
 
+:info[**FREE HEAL**]{color=pink}
+
 :::::trainer[Pokemon Trainer Hop]
   :::pokemon[Wooloo]
     - With 15 Sp. Atk, Ember x2 :info[12.1% range]{color=red}
@@ -218,18 +220,19 @@ At the lower right vendor, buy
 :::::::trainer[Team Yell Grunt #1]
   :::::pokemon[Zigzagoon]
     :::if{source="Growlithe" condition="startingLevel=7"}
-    - Burn Up :info[100% at 100% at 18 SpA (15+ / 0+ / 0+)]{color=red}
+    - Burn Up
+    ::damage[Burn Up]{source="Growlithe" level=7 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=25 opponentStat=12 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=8 && spa=(x / x / 13+)"}
     - Flamethrower
     :::
-    :::if{source="Growlithe" condition="startingLevel=8 && spa=(0+ / 0+ / 12-)"}
+    :::if{source="Growlithe" condition="startingLevel=8 && spa=~(x / x / 13+)"}
     - Burn Up
     :::
     :::if{source="Growlithe" condition="startingLevel=9 && spa=(x / 12+ / 0+)"}
     - Flamethrower
     :::
-    :::if{source="Growlithe" condition="startingLevel=9 && spa=(0+ / 11- / x)"}
+    :::if{source="Growlithe" condition="startingLevel=9 && spa=~(x / 12+ / 0+)"}
     - Burn Up
     :::
     :::if{source="Growlithe" condition="startingLevel=10"}
@@ -238,17 +241,106 @@ At the lower right vendor, buy
   :::::
 :::::::
     
-:::::::trainer[Team Yell Grunt #1]
+:::::::trainer[Team Yell Grunt #2]
   :::::pokemon[Nickit]
     :::if{source="Growlithe" condition="startingLevel=7"}
     - Burn Up (finish with Extreme Speed if needed)
     ::damage[Burn Up]{source="Growlithe" level=7 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
     :::
+    :::if{source="Growlithe" condition="startingLevel=8"}
+    - Burn Up (finish with Extreme Speed if needed)
+    ::damage[Burn Up]{source="Growlithe" level=8 evolution=1 evs=0 movePower=130 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
+    :::
+    :::if{source="Growlithe" condition="startingLevel=9"}
+    - Burn Up (finish with Extreme Speed if needed)
+    ::damage[Burn Up]{source="Growlithe" level=9 evolution=1 evs=0 movePower=130 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
+    :::
+    :::if{source="Growlithe" condition="startingLevel=10 && atk=(x / x / 20+)"}
+    - Extreme Speed
+    :::
+    :::if{source="Growlithe" condition="startingLevel=10 && atk=~(x / x / 20+) && spa=(x / 10+ / 0+)"}
+    - Flamethrower
+    :::
+    :::if{source="Growlithe" condition="startingLevel=10 && atk=~(x / x / 20+) && spa=~(x / 10+ / 0+)"}
+    - Burn Up
+    :::
   :::::
 :::::::    
     
-    
+:info[**FREE HEAL**]{color=pink}
 
+:::::::trainer[Team Yell Grunt multi with Hop]
+  :::::pokemon[Zigzagoon]
+    :::if{source="Growlithe" condition="startingLevel=7 || startingLevel=9-10"}
+    - Flamethrower
+    :::
+    :::if{source="Growlithe" condition="startingLevel=8"}
+    - Flamethrower
+    ::damage[Flamethrower]{source="Growlithe" level=8 evolution=1 evs=0 movePower=90 special=true stab=true healthThreshold=25 opponentStat=10 theme="error"}
+    :::
+  :::::
+  :::::pokemon[Nickit]
+    :::if{source="Growlithe" condition="startingLevel=7"}
+    - If Wooloo Tackled, Extreme Speed
+    - If not, Burn Up (finish with Extreme Speed if needed)
+    ::damage[Burn Up]{source="Growlithe" level=8 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
+    :::
+    :::if{source="Growlithe" condition="startingLevel=8-9"}
+    - If Wooloo Tackled, Extreme Speed
+    - If not, Burn Up (finish with Extreme Speed if needed)
+    ::damage[Burn Up]{source="Growlithe" level=9 evolution=1 evs=0 movePower=130 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
+    :::
+    :::if{source="Growlithe" condition="startingLevel=10 && atk=(x / x / 20+)"}
+    - Extreme Speed
+    :::
+    :::if{source="Growlithe" condition="startingLevel=10 && atk=~(x / x / 20+) && spa=(x / 10+ / 0+)"}
+    - If Wooloo Tackled, Extreme Speed
+    - Flamethrower
+    :::
+    :::if{source="Growlithe" condition="startingLevel=10 && atk=~(x / x / 20+) && spa=~(x / 10+ / 0+)"}
+    - If Wooloo Tackled, Extreme Speed
+    - Burn Up
+    :::
+  :::::
+:::::::
+
+:info[**FREE HEAL**]{color=pink}
+
+Mash B after leaving Motostoke Stadium, then
+:::if{source="Growlithe" condition="startingLevel=8-10"}
+- Equip Charcoal
+:::
+- Taxi to left Motostoke
+- Grab Silk Scarf (item down-right behind the fence)
+
+:::::::trainer[Pokemon Trainer Hop]
+  :::::pokemon[Wooloo]
+    :::if{source="Growlithe" condition="startingLevel=7"}
+    - X Sp. Atk + Flamethrower
+    :::
+    :::if{source="Growlithe" condition="startingLevel=8"}
+    - Extreme Speed + Flamethrower
+    :::
+    :::if{source="Growlithe" condition="startingLevel=9-10 && spa=(20+ / x / x)"}
+    - Flamethrower
+    ::damage[Flamethrower]{source="Growlithe" level=10 evolution=1 evs=0 movePower=108 special=true stab=true healthThreshold=30 opponentStat=15 theme="error"}
+    :::
+    :::if{source="Growlithe" condition="startingLevel=9-10 && spa=~(20+ / x / x)"}
+    - Extreme Speed + Flamethrower
+    :::
+  :::::
+  :::::pokemon[Grookey]{info="has 26 Speed"}
+    - Flamethrower
+  :::::
+  :::::pokemon[Rookidee]
+    :::if{source="Growlithe" condition="startingLevel=7-8 && spa=(x / 30+ / 10+)"}
+    - Flamethrower
+    :::
+    :::if{source="Growlithe" condition="startingLevel=7-8 && spa=~(x / 30+ / 10+)"}
+    - Burn Up
+    :::
+    :::if{source="Growlithe" condition="startingLevel=9-10 && spa=(x / 30+ / 10+)"}
+    
 
 
 
