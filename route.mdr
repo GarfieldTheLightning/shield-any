@@ -1,4 +1,4 @@
-:::tracker{species="Growlithe" baseStats="[55, 70, 45, 70, 50, 60], [90, 110, 80, 100, 80, 95]]}
+:::tracker{species="Growlithe" baseStats="[[55, 70, 45, 70, 50, 60], [90, 110, 80, 100, 80, 95]]"}
 7: 
   8 -> 0, 0, 0, 0, 1, 1
   9 -> 0, 0, 1, 0, 2, 2
@@ -103,18 +103,18 @@ Set date and time to 20th September 23:40-23:55 (sunny Rolling Fields, overcast 
 
 ZL, ZR and A all act as the confirm button in this game. To advance through text quickly, hold ZL/ZR/A/B and mash a different confirm button. Mash "confirm" through text unless otherwise directed.
 
-Hold down on D-pad, right on control stick during transition to Options to change first three options quickly:
+Hold down on D-pad, right on control stick during the transition to Options to change the first three options quickly:
 - Text Speed: Fast
 - (v) Battle Effects: Off
 - (v) Battle Style: Set
-- (vv) Give Nicknames: Don’t give
+- (vv) Give Nicknames: Don't give
 - (R) Autosave: Off
 - (R) Skip Movies: On (<)
 - B, then mash A to confirm twice
 
 Pick Scorbunny (don't reset for stats). Keep track of your Atk and Sp. Atk.
 
-:::::trainer[Pokémon Trainer Hop]
+:::::trainer[Pokemon Trainer Hop]
   :::pokemon[Wooloo]
     - Tackle x3 :info[x2 is 9.8% range at 14 Atk]{color=red}
   :::
@@ -122,42 +122,49 @@ Pick Scorbunny (don't reset for stats). Keep track of your Atk and Sp. Atk.
     - Ember x2 :info[100% at 10 SpA]{color=red}
 :::::
 
-On Route 1, catch Rookidee at full HP. If Rookidee doesn't show up, catch Wooloo instead.
+On Route 1, catch Rookidee at full HP. If Rookidee doesn't show up, catch Wooloo instead if you can.
 
-:::card
-If you caught a Lv. 5 or 6 Wooloo, check these cards for the appropriate strats on Jake's Skwovet and Benjamin's Nickit.
+:::card{theme=neutral}
+If you caught a Lv. 5 or 6 Wooloo, check these boxes for the appropriate strats on Jake's Skwovet and Benjamin's Nickit.
 :::
 
 Grab the Rare Candy to the right after leaving Sonia's lab.
 
-Pick the 2nd option at Hop in the Pokémon Center.
+Pick the 2nd option at Hop in the Pokemon Center.
 
 :::::::trainer[Youngster Jake]
   :::::pokemon[Skwovet]
     - With 17+ Atk, Tackle x4
     - With less Atk, Ember x4
-    :::card
+    :::card{theme=neutral}
       - With 18+ Atk, Tackle x3
       - With 12+ Sp. Atk, Ember x3 :info[99% at 12-13 Sp. Atk, 100% at 14 Sp. Atk]{color=red}
       - With 16-17 Atk, try Tackle x3 :info[48.9% range]{color=red}
       - With lower stats, Ember x4 :info[x3 is 1.1% range]{color=red}
     :::
   :::::
-:::::
+:::::::
 
-:::::trainer[Youngster Benjamin]
-  :::pokemon[Blipbug]
+:::::::trainer[Youngster Benjamin]
+  :::::pokemon[Blipbug]
     - Ember :info[1/16 at 11- Sp. Atk, 15/16 at 12-13 Sp. Atk, 100% at 14+ Sp. Atk]{color=red}
-    :info[If in Blaze, Ember is 15/16 at 9 Sp. Atk, 100% at 10+ Sp. Atk]{color=red}
-  :::
-  :info[If you miss the Blipbug range, always Quick Attack Nickit]{color=gray}
-  :::pokemon[Nickit]
-    - In Blaze with 12+ Sp. Atk, Ember x2 (finish with Quick Attack if necessary)
+    - :info[If in Blaze, Ember is 15/16 at 9 Sp. Atk, 100% at 10+ Sp. Atk]{color=red}
+  :::::
+  :info[If you miss the Blipbug range, ignore below directions and Quick Attack Nickit until KOd.]{color=green}
+  :::::pokemon[Nickit]
+    - In Blaze with 12+ Sp. Atk, Ember x2 (finish with QA if needed) :info[Ember x2 is 9.8% at 12-13 Sp. Atk, 15/16 at 14 Sp. Atk]{color=red}
     - If not in Blaze and/or with less Sp. Atk, Quick Attack x3 :info[1/256 range at 18+ Atk]{color=red}
-  :::
-:::::
+    :::card{theme=neutral}
+      - With 22 Atk, Quick Attack x2
+      - In Blaze with 14+ Sp. Atk, Ember x2 (finish with QA if needed) :info[Ember x2 is 15/16]{color=red}
+      - With 20-21 Atk, try Quick Attack x2 :info[37.1% range]{color=red}
+      - In Blaze with 12-13 Sp. Atk, Ember x2 (finish with QA if needed) :info[Ember x2 is 9.8%]{color=red}
+      - If not in Blaze and/or with lower stats, Quick Attack x3 :info[1/256 range at 18+ Atk]{color=red}
+    :::
+  :::::
+:::::::
 
-:::::trainer[Pokémon Trainer Hop]
+:::::trainer[Pokemon Trainer Hop]
   :::pokemon[Wooloo]
     - With 15 Sp. Atk, Ember x2 :info[12.1% range]{color=red}
     - With 16+ Atk, Tackle x3 (switch to Ember if Growled) :info[x2 is 7.4% range at 22+ Atk]{color=red}
@@ -172,6 +179,77 @@ Pick the 2nd option at Hop in the Pokémon Center.
     - With lower stats, Ember x2
   :::
 :::::
+
+After taking the train, catch Flash Fire Growlithe at full HP in the patch of grass past Onix.
+- Deposit Scorbunny and Rookidee
+- Die to Diggersby
+- Mash A to be taken to Motostoke entrance
+
+Head to Motostoke Riverbank, getting watts from two dens on the way:
+- Grab Fire Stone (image?)
+- Die to Koffing
+- Mash A to be taken to Motostoke entrance
+
+Get 2 Quick Balls from Watt Trader in white (if he isn't selling them, you set your time incorrectly).
+
+Use the Fire Stone to evolve Growlithe, teaching Extreme Speed in slot 4 (can check some stats when teaching Extreme Speed, but don't worry about getting them all here).
+
+Mash B in Motostoke Center
+
+Remember moves from barista, checking stats as you teach:
+- (^3) Reversal in slot 3
+- (^6) Flamethrower in slot 1
+- (A) Burn Up in slot 2
+
+:::if{source="Growlithe" condition="startingLevel=7"}
+At the lower right vendor, buy
+- (vvv) 19 X Attacks
+- 13 X Sp. Atks
+
+Equip Charcoal
+:::
+
+:::if{source="Growlithe" condition="startingLevel=8-10"}
+At the lower right vendor, buy
+- (vvv) 18 X Attacks
+- 14 X Sp. Atks
+:::
+
+:::::::trainer[Team Yell Grunt #1]
+  :::::pokemon[Zigzagoon]
+    :::if{source="Growlithe" condition="startingLevel=7"}
+    - Burn Up :info[100% at 100% at 18 SpA (15+ / 0+ / 0+)]{color=red}
+    :::
+    :::if{source="Growlithe" condition="startingLevel=8 && spa=(x / x / 13+)"}
+    - Flamethrower
+    :::
+    :::if{source="Growlithe" condition="startingLevel=8 && spa=(0+ / 0+ / 12-)"}
+    - Burn Up
+    :::
+    :::if{source="Growlithe" condition="startingLevel=9 && spa=(x / 12+ / 0+)"}
+    - Flamethrower
+    :::
+    :::if{source="Growlithe" condition="startingLevel=9 && spa=(0+ / 11- / x)"}
+    - Burn Up
+    :::
+    :::if{source="Growlithe" condition="startingLevel=10"}
+    - Flamethrower
+    :::
+  :::::
+:::::::
+    
+:::::::trainer[Team Yell Grunt #1]
+  :::::pokemon[Nickit]
+    :::if{source="Growlithe" condition="startingLevel=7"}
+    - Burn Up (finish with Extreme Speed if needed)
+    ::damage[Burn Up]{source="Growlithe" level=7 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
+    :::
+  :::::
+:::::::    
+    
+    
+
+
 
 
 
