@@ -204,17 +204,17 @@ Remember moves from barista, checking stats as you teach:
 - (A) Burn Up in slot 2
 
 :::if{source="Growlithe" condition="startingLevel=7"}
-At the lower right vendor, buy
-- (vvv) 19 X Attacks
-- 13 X Sp. Atks
+  At the lower right vendor, buy
+  - (vvv) 19 X Attacks
+  - 13 X Sp. Atks
 
 Equip Charcoal.
 :::
 
 :::if{source="Growlithe" condition="startingLevel=8-10"}
-At the lower right vendor, buy
-- (vvv) 18 X Attacks
-- 14 X Sp. Atks
+  At the lower right vendor, buy
+  - (vvv) 18 X Attacks
+  - 14 X Sp. Atks
 :::
 
 :::card{theme=warning}
@@ -225,7 +225,7 @@ Burn Up removes Arcanine's Fire typing upon use, and cannot be used more than on
   :::::pokemon[Zigzagoon]
     :::if{source="Growlithe" condition="startingLevel=7"}
       - Burn Up
-      ::damage[Burn Up]{source="Growlithe" level=7 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=25 opponentStat=12 theme="error"}
+      ::damage[Burn Up]{source="Growlithe" level=7 evolution=1 movePower=156 special=true stab=true healthThreshold=25 opponentStat=12 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=8 && spa=(x / x / 13+)"}
       - Flamethrower
@@ -249,15 +249,15 @@ Burn Up removes Arcanine's Fire typing upon use, and cannot be used more than on
   :::::pokemon[Nickit]
     :::if{source="Growlithe" condition="startingLevel=7"}
       - Burn Up (finish with Extreme Speed if needed)
-      ::damage[Burn Up]{source="Growlithe" level=7 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
+      ::damage[Burn Up]{source="Growlithe" level=7 evolution=1 movePower=156 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=8"}
       - Burn Up (finish with Extreme Speed if needed)
-      ::damage[Burn Up]{source="Growlithe" level=8 evolution=1 evs=0 movePower=130 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
+      ::damage[Burn Up]{source="Growlithe" level=8 evolution=1 movePower=130 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=9"}
       - Burn Up (finish with Extreme Speed if needed)
-      ::damage[Burn Up]{source="Growlithe" level=9 evolution=1 evs=0 movePower=130 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
+      ::damage[Burn Up]{source="Growlithe" level=9 evolution=1 movePower=130 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=10 && atk=(x / x / 20+)"}
       - Extreme Speed
@@ -280,19 +280,19 @@ Burn Up removes Arcanine's Fire typing upon use, and cannot be used more than on
     :::
     :::if{source="Growlithe" condition="startingLevel=8"}
       - Flamethrower
-      ::damage[Flamethrower]{source="Growlithe" level=8 evolution=1 evs=0 movePower=90 special=true stab=true healthThreshold=25 opponentStat=10 theme="error"}
+      ::damage[Flamethrower]{source="Growlithe" level=8 evolution=1 movePower=90 special=true stab=true healthThreshold=25 opponentStat=10 theme="error"}
     :::
   :::::
   :::::pokemon[Nickit]
     :::if{source="Growlithe" condition="startingLevel=7"}
       - If Wooloo Tackled, Extreme Speed
       - If not, Burn Up (finish with Extreme Speed if needed)
-      ::damage[Burn Up]{source="Growlithe" level=8 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
+      ::damage[Burn Up]{source="Growlithe" level=8 evolution=1 movePower=156 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=8-9"}
       - If Wooloo Tackled, Extreme Speed
       - If not, Burn Up (finish with Extreme Speed if needed)
-      ::damage[Burn Up]{source="Growlithe" level=9 evolution=1 evs=0 movePower=130 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
+      ::damage[Burn Up]{source="Growlithe" level=9 evolution=1 movePower=130 special=true stab=true healthThreshold=26 opponentStat=14 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=10 && atk=(x / x / 20+)"}
       - Extreme Speed
@@ -327,7 +327,7 @@ Mash B after leaving Motostoke Stadium, then
     :::
     :::if{source="Growlithe" condition="startingLevel=9-10 && spa=(20+ / x / x)"}
       - Flamethrower
-      ::damage[Flamethrower]{source="Growlithe" level=10 evolution=1 evs=0 movePower=108 special=true stab=true healthThreshold=30 opponentStat=15 theme="error"}
+      ::damage[Flamethrower]{source="Growlithe" level=10 evolution=1 movePower=108 special=true stab=true healthThreshold=30 opponentStat=15 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=9-10 && spa=~(20+ / x / x)"}
       - Extreme Speed + Flamethrower
@@ -384,34 +384,34 @@ Grab 2 X Defenses just outside Galar Mine.
   :::::pokemon[Diglett]{info="has 31 Speed" infoColor=blue}
     :::if{source="Growlithe" condition="startingLevel=7-9 && spe=(x / x / 19+)"}
       - Flamethrower / Extreme Speed (whichever is more likely to KO)
-      ::damage[Flamethrower]{source="Growlithe" level=12 evolution=1 evs=0 movePower=108 special=true stab=true healthThreshold=26 opponentStat=17 theme="error"}
-      ::damage[Extreme Speed]{source="Growlithe" level=12 evolution=1 evs=0 movePower=80 special=false stab=false healthThreshold=26 opponentStat=12 theme="error"}
+      ::damage[Flamethrower]{source="Growlithe" level=12 evolution=1 movePower=108 special=true stab=true healthThreshold=26 opponentStat=17 theme="error"}
+      ::damage[Extreme Speed]{source="Growlithe" level=12 evolution=1 movePower=80 special=false stab=false healthThreshold=26 opponentStat=12 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=7-9 && spe=~(x / x / 19+)"}
       - Flamethrower / Extreme Speed (may attempt Extreme Speed to move before Diglett)
-      ::damage[Flamethrower]{source="Growlithe" level=12 evolution=1 evs=0 movePower=108 special=true stab=true healthThreshold=26 opponentStat=17 theme="error"}
-      ::damage[Extreme Speed]{source="Growlithe" level=12 evolution=1 evs=0 movePower=80 special=false stab=false healthThreshold=26 opponentStat=12 theme="error"}
+      ::damage[Flamethrower]{source="Growlithe" level=12 evolution=1 movePower=108 special=true stab=true healthThreshold=26 opponentStat=17 theme="error"}
+      ::damage[Extreme Speed]{source="Growlithe" level=12 evolution=1 movePower=80 special=false stab=false healthThreshold=26 opponentStat=12 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=10 && spe=(x / 18+ / 3+)"}
       - Flamethrower
     :::
     :::if{source="Growlithe" condition="startingLevel=10 && spe=~(x / 18+ / 3+)"}
       - Flamethrower / Extreme Speed (may attempt Extreme Speed to move before Diglett)
-      ::damage[Extreme Speed]{source="Growlithe" level=13 evolution=1 evs=0 movePower=80 special=false stab=false healthThreshold=26 opponentStat=12 theme="error"}
+      ::damage[Extreme Speed]{source="Growlithe" level=13 evolution=1 movePower=80 special=false stab=false healthThreshold=26 opponentStat=12 theme="error"}
     :::
   :::::
   :::::pokemon[Drilbur]
     :::if{source="Growlithe" condition="startingLevel=7-9 && spe=(9- / x / x)"}
       - Burn Up (if Drilbur survives, finish with Extreme Speed)
-      ::damage[Burn Up]{source="Growlithe" level=12 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=43 opponentStat=18 theme="error"}
+      ::damage[Burn Up]{source="Growlithe" level=12 evolution=1 movePower=156 special=true stab=true healthThreshold=43 opponentStat=18 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=7-9 && spe=~(9- / x / x)"}
       - Burn Up
-      ::damage[Burn Up]{source="Growlithe" level=12 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=43 opponentStat=18 theme="error"}
+      ::damage[Burn Up]{source="Growlithe" level=12 evolution=1 movePower=156 special=true stab=true healthThreshold=43 opponentStat=18 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=10"}
       - Burn Up
-      ::damage[Burn Up]{source="Growlithe" level=13 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=43 opponentStat=18 theme="error"}
+      ::damage[Burn Up]{source="Growlithe" level=13 evolution=1 movePower=156 special=true stab=true healthThreshold=43 opponentStat=18 theme="error"}
     :::
   :::::
 :::::::
@@ -458,7 +458,7 @@ After talking to Sonia, taxi to the Center.
   :::
   :::pokemon[Eldegoss]{info="has 29 Speed" infoColor=blue}
     - Burn Up
-    ::damage[Burn Up]{source="Growlithe" level=14 evolution=1 evs=0 movePower=156 combatStages=4 special=true stab=true effectiveness=2 healthThreshold=89 opponentStat=57 theme="error"}
+    ::damage[Burn Up]{source="Growlithe" level=14 evolution=1 movePower=156 combatStages=4 special=true stab=true effectiveness=2 healthThreshold=89 opponentStat=57 theme="error"}
   :::
 :::::
 
@@ -474,12 +474,12 @@ Taxi to Center.
     - Flamethrower + Burn Up
     - If you miss the range, Extreme Speed if you think if KOs (Thievul has 53 HP). Try Reversal instead if you might get to <35% HP this turn.
     :::if{source="Growlithe" condition="startingLevel=7-9"}
-      ::damage[Extreme Speed]{source="Growlithe" level=15 evolution=1 evs=0 movePower=80 special=false stab=false opponentStat=25 theme="error"}
-      ::damage[Extreme Speed at -1]{source="Growlithe" level=15 evolution=1 evs=0 movePower=80 combatStages=-1 special=false stab=false opponentStat=25 theme="error"}
+      ::damage[Extreme Speed]{source="Growlithe" level=15 evolution=1 movePower=80 special=false stab=false opponentStat=25 theme="error"}
+      ::damage[Extreme Speed at -1]{source="Growlithe" level=15 evolution=1 movePower=80 combatStages=-1 special=false stab=false opponentStat=25 theme="error"}
     :::
     :::if{source="Growlithe" condition="startingLevel=10"}
-      ::damage[Extreme Speed]{source="Growlithe" level=16 evolution=1 evs=0 movePower=80 special=false stab=false opponentStat=25 theme="error"}
-      ::damage[Extreme Speed at -1]{source="Growlithe" level=16 evolution=1 evs=0 movePower=80 combatStages=-1 special=false stab=false opponentStat=25 theme="error"}
+      ::damage[Extreme Speed]{source="Growlithe" level=16 evolution=1 movePower=80 special=false stab=false opponentStat=25 theme="error"}
+      ::damage[Extreme Speed at -1]{source="Growlithe" level=16 evolution=1 movePower=80 combatStages=-1 special=false stab=false opponentStat=25 theme="error"}
     :::
   :::::
 :::::::
@@ -487,7 +487,7 @@ Taxi to Center.
 :::::trainer[Team Yell Grunt #2]
   :::pokemon[Sableye]
     - Burn Up
-    ::damage[Burn Up]{source="Growlithe" level=16 evolution=1 evs=0 movePower=156 special=true stab=true healthThreshold=46 opponentStat=28 theme="error"}
+    ::damage[Burn Up]{source="Growlithe" level=16 evolution=1 movePower=156 special=true stab=true healthThreshold=46 opponentStat=28 theme="error"}
   :::
 :::::
 
@@ -497,29 +497,59 @@ Heal before Hop if you die to 1 hit.
   :::::pokemon[Wooloo]
     - X Sp. Atk + Flamethrower
     :::if{source="Growlithe" condition="startingLevel=7-8"}
-      ::damage[Tackle]{source="Growlithe" offensive=false level=16 evolution=1 evs=0 movePower=40 special=false stab=true opponentLevel=18 opponentStat=20 theme="info"}
+      ::damage[Tackle]{source="Growlithe" offensive=false level=16 evolution=1 movePower=40 special=false stab=true opponentLevel=18 opponentStat=20 theme="info"}
     :::
     :::if{source="Growlithe" condition="startingLevel=9-10"}
-      ::damage[Tackle]{source="Growlithe" offensive=false level=17 evolution=1 evs=0 movePower=40 special=false stab=true opponentLevel=18 opponentStat=20 theme="info"}
+      ::damage[Tackle]{source="Growlithe" offensive=false level=17 evolution=1 movePower=40 special=false stab=true opponentLevel=18 opponentStat=20 theme="info"}
     :::
   :::::
   :::::pokemon[Corvisquire]{info="has 40 Speed" infoColor=blue}
     - Flamethrower
     :::if{source="Growlithe" condition="spe=(# / 20- / 3-)"}
-      ::damage[Pluck]{source="Growlithe" offensive=false level=17 evolution=1 evs=0 movePower=60 special=false stab=true opponentLevel=19 opponentStat=33 theme="info"}
+      ::damage[Pluck]{source="Growlithe" offensive=false level=17 evolution=1 movePower=60 special=false stab=true opponentLevel=19 opponentStat=33 theme="info"}
     :::
   :::::
   :::::pokemon[Thwackey]{info="has 42 Speed" infoColor=blue}
     - Flamethrower
     :::if{source="Growlithe" condition="startingLevel=7-9 && spe=(# / 31- / 14-)"}
-      ::damage[Double Hit (hits twice)]{source="Growlithe" offensive=false level=17 evolution=1 evs=0 movePower=35 special=false stab=false opponentLevel=21 opponentStat=43 theme="info"}
+      ::damage[Double Hit (hits twice)]{source="Growlithe" offensive=false level=17 evolution=1 movePower=35 special=false stab=false opponentLevel=21 opponentStat=43 theme="info"}
     :::
     :::if{source="Growlithe" condition="startingLevel=10 && spe=(# / 20- / 3-)"}
-      ::damage[Double Hit (hits twice)]{source="Growlithe" offensive=false level=18 evolution=1 evs=0 movePower=35 special=false stab=false opponentLevel=21 opponentStat=43 theme="info"}
+      ::damage[Double Hit (hits twice)]{source="Growlithe" offensive=false level=18 evolution=1 movePower=35 special=false stab=false opponentLevel=21 opponentStat=43 theme="info"}
     :::
   :::::
 :::::::
   
+:::if{source="Growlithe" condition="(startingLevel=7 && spe=(# / 23- / 2-)) || (startingLevel=8-10 && spe=(# / 3- / x))"}
+  Grab 2 X Speeds up the hill in Hulbury.
+:::
+
+(Describe Gym puzzle?)
+
+:::::trainer[Gym Trainer Julia]
+  :::pokemon[Tympole]{info="has 35 Speed" infoColor=blue}
+    - Burn Up + Extreme Speed (or if Growled turn 1, check which move does more damage turn 2)
+    ::damage[Extreme Speed at -1]{source="Growlithe" level=18 evolution=1 movePower=80 combatStages=-1 special=false stab=false opponentStat=22 theme="error"}
+    ::damage[Flamethrower after Burn Up]{source="Growlithe" level=18 evolution=1 movePower=108 combatStages=0 special=true stab=false effectiveness=0.5 opponentStat=22 theme="error"}
+  :::
+:::::
+
+:::::trainer[Gym Trainer Heather]
+  :::pokemon[Krabby]
+    - X Sp. Atk + Flamethrower
+  :::
+  :::pokemon[Corphish]
+    - Flamethrower
+  :::
+:::::
 
 
+    
+    
+    
+    
+    
+    
+    
+    
 
